@@ -1,0 +1,109 @@
+<style type="text/css">* {
+    margin: 0px;
+}
+
+#top-left {
+    padding-top: 5px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+
+#top-right {
+    height: 60px;
+    width: 95%;
+    background-color: #fe4365;
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 67px;
+}
+
+#top-right font {
+    color: white;
+    display: block;
+    font-size: 38px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#main {
+    width: 1365px;
+    height: 600px;
+    background: url(images/registerBackground.jpg) no-repeat;
+    border: 0.1px solid #fff96b;
+}
+
+#main .content {
+    width: 800px;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 100px;
+    background: url(images/content_title_bg.png) no-repeat;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #dedede;
+}
+
+#main .content p {
+    color: white;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+#main .content .content-center {
+    width: 470px;
+    height: 200px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: url(images/success.png) no-repeat;
+}
+
+#main .content .content-center .center-show {
+    width: 330px;
+    height: 190px;
+    float: right;
+    line-height: 40px;
+}
+
+#main .content .content-center .center-show h3 {
+    display: block;
+    width: 130px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1679ca;
+}
+
+#main .content .content-center .center-show a {
+    text-align: center;
+    text-decoration: none;
+}
+
+#main .main-right {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+
+#main .main-left {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    left: -70px;
+}
+
+#main .bottom {
+    width: 1365px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+}
+
+</style>
