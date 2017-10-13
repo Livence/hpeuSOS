@@ -1,0 +1,218 @@
+<style type="text/css">
+		*{
+			margin: 0px;
+		}
+        #top-left{
+        	padding-top: 5px;
+        	padding-left: 7px;
+        	box-sizing: border-box;
+        }
+        #top-right{
+        	height: 60px;
+        	width: 95%;
+        	background-color: #fe4365;
+        	float: right;
+        	position: absolute;
+        	top: 0px;
+        	left: 67px;
+        }
+        #top-right font{
+        	color: white;
+        	display: block;
+        	font-size: 38px;
+        	margin-top: 5px;s
+        	margin-left: 10px;
+        }
+        #top-right p{
+        	width: 550px;
+        	height: 30px;
+        	color: black;;
+        	display: block;
+        	font-size: 18px;
+        	float: right;
+        	margin-top: -40px;
+        }
+        #top-right b{
+        	color: black;
+        }
+        #top-right span{
+        	width: 250px;
+        	height: 30px;
+        	display: block;
+        	font-size: 16px;
+        	float: right;
+            
+        }
+         #top-right a{
+        	text-decoration: none;
+        	color: black;
+        }
+        #main{
+        	width: 1365px;
+        	height: 600px;
+        	background:url(images/commonBackground.jpg) no-repeat;
+        	border: 0.1px solid #fff96b;
+        }
+        #main .title{
+        	width: 1365px;
+        	height: 110px;
+        	padding: 5px;
+        	box-sizing: border-box;
+        	background:url(images/user-bg.png);
+        }
+        #main .title .user{
+        	width: 800px;
+        	height: 83px;
+        	margin: 0px auto;
+
+        }
+        #main .title .user b{
+        	display: block;
+            width: 180px;
+            height: 29px;
+            color: white;
+            position: relative;
+            left:100px;
+            top: -80px;
+      
+        }     
+        #main .title .title-right{
+        	width: 330px;
+        	height: 79px;
+        	position: relative;
+        	top: -110px;
+        	left: 450px;
+        
+        }
+        #main .title .title-right table{
+        	display: block;
+        	height:60px;
+        	width: 5px;
+        	border-color:white;
+        	border-left-style:solid;
+        	border-width:1px
+        	position: absolute;
+            left:1100px;
+            top: -10px;
+        }
+        #main .title .title-right p{
+        	display: block;
+        	width: 321px;
+        	height: 76px;
+        	color: white;
+        	line-height: 40px;
+        	float: right;
+        	margin-top: -60px;
+        	font-size: 20px;
+
+        }
+        #main .title .user .appear{
+        	background-color: #5670e0;
+     
+        }
+        #main .content{
+        	width: 820px;
+        	height: 500px;
+        	margin: 0px auto;
+        	margin-top: -20px;
+        	background-color: white;
+        	border-radius: 5px;
+        	border: 1px solid #dedede;
+        }
+        #main .content .content-top{
+        	width: 820px;
+        	height: 45px;
+        }
+        
+        #main .content .content-top ul{
+            margin-top: -90px;
+            float: left;
+
+        }
+        #main .content .content-top li{
+            width: 128px;
+            height: 40px;
+            float: left;
+            list-style: none;
+        }
+        #main .content .content-top  a{
+            text-decoration: none;
+        }
+        #main .content .content-top  span{
+            color: #99bcf8;
+        }
+        #main .content .content-cal {
+            width:820px;
+            height:37px;
+        }
+        #main .content .cal-right{
+            width:65px;
+            height:33px;
+            float:right;
+            margin-right:20px;
+            margin-top:-50px;
+        }
+        #main .content .content-show{
+            width:780px;
+            height:40px;
+            margin:0px auto;
+            margin-top:40px;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bolder;
+            color: blue;
+        }
+        #main .content .content-center{
+            width:780px;
+            height:150px;
+            margin:0px auto;
+            margin-top:0px;
+        }
+        #main .content .content-center .balance{
+            width:370px;
+            height:130px;
+            float:left;
+        }
+        #main .content .content-center .balance p{
+            font-size:18px;
+            line-height:50px;
+        }
+        #main .content .content-center .balance .operation{
+            width:245px;
+            height:48px;
+            float:right;
+            margin-top: -50px;
+        }
+        #main .content .content-center .balance .operation a{
+            text-decoration: none;
+            text-align:center;
+        }
+        #main .content .content-center .balance .operation #rechange{
+            display:block;
+            width:111px;
+            height:33px;
+            line-height: 33px;
+            float:left;
+            background-color:#ff4000;
+            border:1px solid gray;
+        }
+        #main .content .content-center .balance .operation #withdraw{
+            display:block;
+            width:111px;
+            height:33px;
+            line-height: 33px;
+            float:right;
+            background-color:#ffffff;
+            border:1px solid gray;
+        }
+
+        #main .content .content-center .profit{
+            width:370px;
+            height:130px;
+            float:right;
+        }
+        #main .content .content-center .profit p{
+            font-size:18px;
+            line-height:50px;
+        }
+	</style>

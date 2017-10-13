@@ -1,0 +1,154 @@
+<style type="text/css">
+        *{
+            margin: 0px;
+        }
+        #top-left{
+            padding-top: 5px;
+            padding-left: 7px;
+            box-sizing: border-box;
+        }
+        #top-right{
+            height: 60px;
+            width: 95%;
+            background-color: #fe4365;
+            float: right;
+            position: absolute;
+            top: 0px;
+            left: 67px;
+        }
+        #top-right font{
+            color: white;
+            display: block;
+            font-size: 38px;
+            margin-top: 5px;s
+            margin-left: 10px;
+        }
+        #top-right p{
+            width: 550px;
+            height: 30px;
+            color: black;;
+            display: block;
+            font-size: 18px;
+            float: right;
+            margin-top: -40px;
+        }
+        #top-right b{
+            color: black;
+            
+        }
+        #top-right span{
+            width: 270px;
+            height: 30px;
+            display: block;
+            font-size: 16px;
+            float: right;
+            border: 1px solid red;
+        }
+         #top-right a{
+            text-decoration: none;
+            color: black;
+        }
+        #main{
+            width: 1365px;
+            height: 600px;
+            background:url(images/commonBackground.jpg) no-repeat;
+            border: 0.1px solid #fff96b;
+        }
+        #main .title{
+            width: 1365px;
+            height: 110px;
+            padding: 5px;
+            box-sizing: border-box;
+            background:url(images/user-bg.png);
+        }
+      
+        #main .title .user .appear{
+            background-color: #5670e0;
+     
+        }
+        #main .content{
+            width: 820px;
+            height: 500px;
+            margin: 0px auto;
+            margin-top: -20px;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid #dedede;
+        }
+        #main .content .content-top{
+            width: 820px;
+            height: 45px;
+        }
+        
+        #main .content .content-top ul{
+            margin-top: 10px;
+            float: left;
+        }
+        #main .content .content-top li{
+            width: 128px;
+            height: 40px;
+            float: left;
+            list-style: none;
+        }
+        #main .content .content-top  a{
+            text-decoration: none;
+        }
+        #main .content .content-top  span{
+            color: #99bcf8;
+        }
+        #main .content .content-show{
+            width:780px;
+            height:30px;
+            margin:0px auto;
+            margin-top:10px;
+            text-align: center;
+            font-weight: bolder;
+            color: blue;
+        }
+        #main .content .content-center{
+            width:780px;
+            height:400px;
+            margin:0px auto;
+            margin-top:0px;
+        }
+        #main .content .content-center table{
+            text-align: center;
+            margin-left: 200px;
+        }
+        #main .content .content-center  td{
+            background-color:#CFEBCF
+            font-weight:bolder;
+            width: 120px;
+            height: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+        #main .content .content-center button{
+            width: 88px;
+            height: 27px;
+        }
+        #main .content .content-center .center-right{
+            width: 160px;
+            height: 40px;
+            float: right;
+            margin-top: 5px;
+        }
+        #main .content .content-center .center-right p{
+            display: block;
+            width: 75px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+            background-color: #e3e3e3;
+            border: solid 0.1px gray;
+        }
+        #main .content .content-center .center-right a{
+            text-decoration: none;
+        }
+        #main .content .content-center .center-right #rechange{
+            float: left;
+        }
+        #main .content .content-center .center-right #add{
+            float: right;
+        }
+    </style>
