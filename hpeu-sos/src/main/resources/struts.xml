@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="*_genius" class="hepu.finacialGenius.project.controller.GeniusController"  method="{1}">
+			<result name="loginSuccess">/WEB-INF/views/main.jsp</result>
+			<result name="loginFail">index.jsp</result>
+			<result name="registerFail">/WEB-INF/views/register.jsp</result>
+			<result name="registerSuccess">/WEB-INF/views/registerSuccess.jsp</result>
+			<result name="addCard">/WEB-INF/views/addCard.jsp</result>	
+			<result name="rechangeSuccess">/WEB-INF/views/main.jsp</result>		
+			<result name="rechangeFail">/WEB-INF/views/rechange.jsp</result>
+			<result name="withdrawSuccess">/WEB-INF/views/main.jsp</result>
+			<result name="withdrawFail">/WEB-INF/views/withdraw.jsp</result>
+			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
+			<result name="toMain">/WEB-INF/views/main.jsp</result>
+		    <allowed-methods>login,register,addCard,rechange,withdraw,deleteCard</allowed-methods>
+		</action>
+		<action name="*_redirection" class="hepu.finacialGenius.project.controller.GeniusController"  method="{1}">
+			<result name="toRegister">/WEB-INF/views/register.jsp</result>
+			<result name="toAddCard">/WEB-INF/views/addCard.jsp</result>
+			<result name="toRechange">/WEB-INF/views/rechange.jsp</result>
+			<result name="toWithdraw">/WEB-INF/views/withdraw.jsp</result>
+			<result name="noCard">/WEB-INF/views/main.jsp</result>
+			<result name="toMain">/WEB-INF/views/main.jsp</result>
+			<result name="toProblem">/WEB-INF/views/problem.jsp</result>
+			<result name="toNews">/WEB-INF/views/news.jsp</result>
+			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
+			<result name="toCancel">/WEB-INF/views/index.jsp</result>
+		    <allowed-methods>
+		        toAddCard,toRegister,toRechange,
+		        toWithdraw,toMain,toNews,toProblem,toCardManage
+		    </allowed-methods>
+		</action>
+	</package>
+</struts>

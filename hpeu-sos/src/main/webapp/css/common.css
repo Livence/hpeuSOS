@@ -1,0 +1,149 @@
+<style type="text/css">
+		*{
+			margin: 0px;
+		}
+        #top-left{
+        	padding-top: 5px;
+        	padding-left: 7px;
+        	box-sizing: border-box;
+        }
+        #top-right{
+        	height: 60px;
+        	width: 95%;
+        	background-color: #fe4365;
+        	float: right;
+        	position: absolute;
+        	top: 0px;
+        	left: 67px;
+        }
+        #top-right font{
+        	color: white;
+        	display: block;
+        	font-size: 38px;
+        	margin-top: 5px;
+        	margin-left: 10px;
+        }
+        #top-right p{
+            width: 550px;
+            height: 30px;
+            color: black;;
+            display: block;
+            font-size: 18px;
+            float: right;
+            margin-top: -40px;
+        }
+        #top-right span{
+            width: 300px;
+            height: 30px;
+            display: block;
+            font-size: 16px;
+            float: right;
+        }
+        #top-right a{
+            text-decoration: none;
+            color: black;
+        }
+        #main{
+        	width: 1365px;
+        	height: 600px;
+        	border: 0.1px solid #fff96b;
+        }
+        #main .loginFail{
+            width: 430px;
+            height: 60px;
+            margin:0px auto;
+        }
+        #main .loginFail b{
+            display: block;
+            width: 520px;
+            height: 50px;
+            margin:0px auto;
+            margin-top: 20px;
+            font-size: 22px;
+            text-align: center;
+            color: blue;
+        } 
+        #main .login {
+        	position: absolute;
+            left: 445px;
+            top: 122px;
+        	width: 550px;
+        	height: 478px;
+        	background-color: #ffffff;
+        	border-radius: 10px;
+        	border: 1px solid #dedede;
+        }
+        #main .login h2{
+        	display: block;
+            width: 150px;
+        	height: 50px;
+        	margin:0px auto;
+        	margin-top: 20px;
+        	font-size: 30px;
+        	text-align: center;
+        	color: #e4393c;
+        } 
+        #main .login .login-form input{
+        	width: 210px;
+        	height: 28px;
+        	position: relative;
+        	top:0px;
+            left: 10px;
+        }
+        #main .login .login-form{
+        	width: 400px;
+        	height: 400px;
+ 
+        }
+        #main .login .login-form h3{
+        	display: block;
+        	width: 300px ;
+        	height: 37px;
+        	float: right;
+        	margin-top: 40px; 
+       
+        }
+        #main .login .login-form select{
+            width: 210px;
+            height: 28px;
+            display: block;
+            position: relative;
+            top:-25px;
+            right:-90px;
+        }
+        #main .login .login-form button{
+        	width: 122px;
+        	height: 41px;
+        	font-size: 17px;
+        	background-color: #f9cdad;
+        }
+        #main .login .login-form #signUp{
+        	margin-left: 200px
+        	float:left;
+        }
+        #main .login .login-form #register{
+        	float:right;
+        }
+        #main .main-right{
+        	width: 300px;
+        	height: 300px;
+        	position: absolute;
+        	top: 60px;
+        	right:40px;
+        }
+        #main .main-left{
+        	width: 300px;
+        	height: 300px;
+        	position: absolute;
+        	top: 30px;
+        	left: -70px;
+        
+        }
+        #main .bottom{
+        	width: 1365px;
+        	height: 50px;
+        	text-align: center;
+        	padding: 10px;
+        	box-sizing: border-box;
+        }
+	</style>
