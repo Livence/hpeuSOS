@@ -1,0 +1,182 @@
+<style type="text/css">
+        *{
+            margin: 0px;
+        }
+        #top-left{
+            padding-top: 5px;
+            padding-left: 7px;
+            box-sizing: border-box;
+        }
+        #top-right{
+            height: 60px;
+            width: 95%;
+            background-color: #4c99c1;
+            float: right;
+            position: absolute;
+            top: 0px;
+            left: 67px;
+        }
+        #top-right #genius{
+            color:white;
+        }
+        #top-right font{
+            color: white;
+            display: block;
+            font-size: 38px;
+            margin-top: 5px;s
+            margin-left: 10px;
+        }
+        #top-right p{
+            width: 550px;
+            height: 30px;
+            color: black;;
+            display: block;
+            font-size: 18px;
+            float: right;
+            margin-top: -40px;
+        }
+        #top-right b{
+            color: black;
+        }
+        #top-right span{
+            width: 250px;
+            height: 30px;
+            display: block;
+            font-size: 16px;
+            float: right;
+            
+        }
+         #top-right a{
+            text-decoration: none;
+            color: black;
+            transition:0.5s;
+        }
+        #top-right a:hover { color:red; }
+        #main{
+            width: 1365px;
+            height: 600px;
+            background:url(images/commonBackground.jpg) no-repeat;
+            border: 0.1px solid #fff96b;
+        }
+        #main .title{
+            width: 1365px;
+            height: 110px;
+            padding: 5px;
+            box-sizing: border-box;
+            background:url(images/user-bg.png);
+        }
+        
+        #main .content{
+            width: 820px;
+            height: 500px;
+            margin: 0px auto;
+            margin-top: -20px;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid #dedede;
+        }
+        #main .content .content-top{
+            width: 820px;
+            height: 45px;
+        }
+        
+        #main .content .content-top ul{
+            margin-top: 12px;
+            float: left;
+
+        }
+        #main .content .content-top li{
+            width: 128px;
+            height: 40px;
+            float: left;
+            list-style: none;
+        }
+         #main .content .content-top  a{
+           color: #99bcf8;
+           font-size:16px;
+           text-decoration:none;
+           transition:0.5s;
+        }
+        #main .content .content-top  a:hover { color:red; }
+        #main .content .content-top  span{
+            color: #99bcf8;
+        }
+        
+        #main .content .myMsg{
+        	width:700px;
+        	height:500px;
+        	margin-top:-45px;
+        	margin-left:120px;
+        	border:1px solid gray;
+        	border-radius: 5px;
+        }
+        #main .content .myMsg .myMsgTop{
+        	width:700px;
+        	height:30px;
+        }
+        #main .content .myMsg .myMsgTop .msgDelete{
+            float: left;
+            margin-left: -40px;
+        }
+        #main .content .myMsg .myMsgCentent{
+            width: 700px;
+            height: 469px;
+            border:1px solid gray;
+        	border-radius: 3px;
+        }
+        #chart {
+            width: 150px;
+            height: 600px;
+            position: absolute;
+            top: 60px;
+            right: 0px;
+            float: right;
+            background-color: white;
+            border-radius: 4px;
+            
+
+        }
+        #chart .chartTop{
+            width: 150px;
+            height: 32px;
+            margin-top: 5px;  
+        }
+         #chart .chartTop button{
+        	width:30px;
+        	height:33px;
+        	background-color:white;
+        	margin-left:3px;
+        	border:white;
+        }
+        #chart .chartTop input{
+            display:block;
+            width: 98px;
+            height: 21px;
+            margin-top:-30px;
+            margin-left:43px;
+        }
+        #chart .chartMsg{         
+            color:red;
+            margin-top:5px;
+        }
+        #chart .myFriends{
+            width:150px;
+            height:500px;
+        }
+        #chart .myFriends a{
+            text-decoration:none;
+            color:black;
+        }
+        #chart .chartBottom{
+            width: 150px;
+            height: 35px;
+        }
+        #chart .chartBottom .friend{
+            margin-left: 30px;
+            float: left;
+        }
+        #chart .chartBottom .email{
+            margin-right: 30px;
+            float: right;
+        }
+    </style>
