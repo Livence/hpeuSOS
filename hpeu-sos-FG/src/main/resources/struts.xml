@@ -16,7 +16,12 @@
 			<result name="withdrawFail">/WEB-INF/views/withdraw.jsp</result>
 			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
 			<result name="toMain">/WEB-INF/views/main.jsp</result>
-		    <allowed-methods>login,register,addCard,rechange,withdraw,deleteCard</allowed-methods>
+			<result name="nameJudgeSuccess"></result>
+			<result name="nameJudgeSuccess">
+			    <param name="location">index.jsp</param>
+                <param name="parse">true</param>
+			</result>
+		    <allowed-methods>login,register,addCard,rechange,withdraw,deleteCard,nameJudge</allowed-methods>
 		</action>
 		<action name="*_redirection" class="hepu.finacialGenius.project.controller.GeniusController"  method="{1}">
 			<result name="toRegister">/WEB-INF/views/register.jsp</result>

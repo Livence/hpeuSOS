@@ -1,8 +1,11 @@
 package hepu.finacialGenius.project.controller;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.apache.struts2.ServletActionContext;
 
@@ -34,6 +37,22 @@ public class GeniusController {
 
 	private String cardName;// 接收jsp传过来的参数。
 
+	public  void nameJudge() throws IOException{
+		HttpServletResponse response = ServletActionContext.getResponse();
+		response.setHeader("Content-type", "text/html;charset=UTF-8");  
+	    PrintWriter pw =  response.getWriter();
+		List<User> list = service.getAll(user);
+		for (User users : list) {
+			if (users.getUserName().equals(user.getUserName())) {
+		       msg = "*账户名已存在"; 
+		       pw.write(msg);
+		       return;
+			}
+		}
+		msg = "*账户名可用";
+	    pw.write(msg);
+	}
+	
 	// 用户登录验证
 	public String login() {
 		List<User> list = service.getAll(user);

@@ -1,4 +1,18 @@
 $(function(){
+	$("#select").blur(function(){
+	    var name = $("#select").val(); 
+	    if(name.length==11&&!isNaN(name)){
+	    	$.ajax({
+    			type : "GET",
+    		    url : "nameJudge_genius",
+    		    data : "user.userName="+name,
+    		    success : function(msg){
+    		    	 $("p").eq(0).text(msg).css("visibility","visible");        		    
+    		    }
+    		})
+	     }		
+	  })
+	        
             $("h3 input").on({
                 blur:function(){ 
                     var i = $("h3 input").index(this);

@@ -38,7 +38,7 @@
 		    <hr>
 		    <div class="login-form">
 		    <form action="register_genius">
-		    <h3>注册账户:<input type="text" name="user.userName" placeholder="请输入注册手机号">
+		    <h3>注册账户:<input type="text" name="user.userName" placeholder="请输入注册手机号" id="select">
 		    	<p>&nbsp;</p>
 		    </h3>
 		    <h3>注册密码:<input type="password" name="user.password" 

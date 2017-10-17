@@ -42,9 +42,9 @@
 			<div class="login-form">
 				<form action="login_genius">
 					<h3>
-						<img src="images/username.png"><input type="text"
+						<img src="images/username.png"> <input type="text"
 							name="user.userName" placeholder="请输入您的账号" id="select">
-						<h4>&nbsp;</h4>
+						<h4 id="show">&nbsp;</h4>
 					</h3>
 					<h3>
 						<img src="images/password.png"> <input type="password"

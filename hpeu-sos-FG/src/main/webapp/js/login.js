@@ -1,4 +1,5 @@
 	$(function(){
+		
             $("h3 input").on({
                 blur:function(){ 
                     var i = $("h3 input").index(this);
