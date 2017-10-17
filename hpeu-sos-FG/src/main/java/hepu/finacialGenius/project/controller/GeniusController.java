@@ -53,11 +53,6 @@ public class GeniusController {
 	    pw.write(msg);
 	}
 	
-	//验证用户是否存在
-	public String userVer() {
-		String a = "在不在";
-		return "用户已存在";
-	}
 	// 用户登录验证
 	public String login() {
 		List<User> list = service.getAll(user);
