@@ -57,7 +57,6 @@ public class GeniusController {
 	public String userVer() {
 		return "";
 	}
-	//诠哥我加了的
 	// 用户登录验证
 	public String login() {
 		List<User> list = service.getAll(user);
