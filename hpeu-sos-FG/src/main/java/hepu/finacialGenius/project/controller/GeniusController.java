@@ -53,6 +53,11 @@ public class GeniusController {
 	    pw.write(msg);
 	}
 	
+	//验证用户是否存在
+	public String userVer() {
+		return "";
+	}
+	
 	// 用户登录验证
 	public String login() {
 		List<User> list = service.getAll(user);
