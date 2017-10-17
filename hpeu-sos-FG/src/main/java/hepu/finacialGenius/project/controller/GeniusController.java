@@ -55,7 +55,7 @@ public class GeniusController {
 	
 	//验证用户是否存在
 	public String userVer() {
-		return "";
+		return "用户已存在";
 	}
 	
 	// 用户登录验证
