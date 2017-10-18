@@ -16,12 +16,12 @@
 			<result name="withdrawFail">/WEB-INF/views/withdraw.jsp</result>
 			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
 			<result name="toMain">/WEB-INF/views/main.jsp</result>
-			<result name="nameJudgeSuccess"></result>
+			<result name="fundRecord">/WEB-INF/views/fundRecord.jsp</result>
 			<result name="nameJudgeSuccess">
 			    <param name="location">index.jsp</param>
                 <param name="parse">true</param>
 			</result>
-		    <allowed-methods>login,register,addCard,rechange,withdraw,deleteCard,nameJudge</allowed-methods>
+		    <allowed-methods>fundRecord,login,register,addCard,rechange,withdraw,deleteCard,nameJudge</allowed-methods>
 		</action>
 	</package>
 </struts>

@@ -42,7 +42,7 @@
                 <ul>
                     <li><a href=" "> 资金总计
 					</a></li>
-                    <li><a href=" "> 资金记录
+                    <li><a href="fundRecord_genius"> 资金记录
 					</a></li>
                     <li><a href=" "> 资金统计
 					</a></li>

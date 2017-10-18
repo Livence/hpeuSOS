@@ -200,7 +200,7 @@ public class GeniusController {
 
 		return "toAddCard";
 	}
-
+	
 	// 如果用户没绑定银行卡，进行提示，绑定的话直接跳到银行卡管理界面
 	public String toCardManage() {
 		cards = service.queryCard(user);
@@ -290,14 +290,24 @@ public class GeniusController {
     	
     	return "tofindPasswordByApplication";
     }
+    
+    //跳转到个人中心
     public String  topersonalCenter(){
     	
     	return "topersonalCenter";
     }
-    
+    //跳转到个人资料修改
     public String  topersonalData(){
     	return "topersonalData";
     }
+    
+    //跳转到资金记录查询
+    public String  fundRecord(){
+    	
+    	
+    	return "fundRecord";
+    }
+    
 	// 账户注销
 	public String toCancel() {
 
