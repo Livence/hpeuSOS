@@ -19,7 +19,7 @@
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/financial_genius"/>
         <property name="username" value="root"/>
-        <property name="password" value="root"/>
+        <property name="password" value="gznc561503"/>
     </bean>
     <bean id="mySessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
         <property name="dataSource" ref="myDataSource"/>
