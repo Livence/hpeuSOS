@@ -34,7 +34,9 @@
 			<result name="toNews">/WEB-INF/views/news.jsp</result>
 			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
 			<result name="toCancel">/WEB-INF/views/index.jsp</result>
+			<result name="tofindPassword">/WEB-INF/views/findPassword.jsp</result>
 		    <allowed-methods>
+		    	tofindPassword,
 		        toAddCard,toRegister,toRechange,
 		        toWithdraw,toMain,toNews,toProblem,toCardManage
 		    </allowed-methods>

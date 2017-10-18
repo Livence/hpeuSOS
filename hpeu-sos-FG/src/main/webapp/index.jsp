@@ -29,7 +29,7 @@
         <p><span>   
           &nbsp;&nbsp;<a href="">关于我们</a>&nbsp;|
           &nbsp;&nbsp;<a href="">管理员登陆</a>&nbsp;|
-          &nbsp;&nbsp;<a href="">密码找回</a>&nbsp;        
+          &nbsp;&nbsp;<a href="tofindPassword_redirection">密码找回</a>&nbsp;        
         </span></p>
 	</div>
 	<div id="main">

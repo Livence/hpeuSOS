@@ -279,6 +279,11 @@ public class GeniusController {
 
 		return "toNews";
 	}
+  
+	//跳转到找回密码
+	public String tofindPassword(){
+		return "tofindPassword";
+	}
 
 	// 账户注销
 	public String toCancel() {
