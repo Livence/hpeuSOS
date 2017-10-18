@@ -26,7 +26,7 @@
         <font><a href="toMain_redirection" id="genius">个人理财精灵</a></font>
         <p><span>
           &nbsp;&nbsp;<a href="toMain_redirection">首页</a>&nbsp;|
-          &nbsp;&nbsp;<a href="toProblem_redirection">常见问题</a>&nbsp;|
+          &nbsp;&nbsp;<a href="topersonalCenter_redirection">个人中心</a>&nbsp;|
           &nbsp;&nbsp;<a href="toNews_redirection">消息</a>&nbsp;|
           &nbsp;&nbsp;<a href="toCancel_redirection">退出</a>
         </span></p>
@@ -62,7 +62,7 @@
                                 账户昵称：
                             </td>
                             <td>
-                            	<input type="text" name="name">
+                            	<input type="text" name="user.nickname">
                             </td>
                         </tr>
                         <tr>
@@ -70,7 +70,7 @@
                                 常用地址：
                             </td>
                             <td>
-                                <input type="text" name="address">
+                                <input type="text" name="user.address">
                             </td>
                         </tr>
                         <tr>
@@ -78,7 +78,7 @@
                                 性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
                             </td>
                             <td>
-                                男<input type="radio" name="sex" class="radio" value="男">&nbsp;&nbsp;
+                                男<input type="radio" name="user.sex" class="radio" value="男">&nbsp;&nbsp;
 		    		            女<input type="radio" name="sex" class="radio" value="女">
                             </td>
                         </tr>
@@ -87,7 +87,7 @@
                                 个性签名：
                             </td>
                             <td id="sign">
-                                <textarea name="sign"  rows="3" cols="22"></textarea>。
+                                <textarea name="user.sign"  rows="3" cols="22"></textarea>。
                             </td>
                         </tr>
                         <tr>
@@ -95,7 +95,7 @@
                                 从事职业：
                             </td>
                             <td>
-                                <select name="profession">
+                                <select name="user.profession">
                                 	<option value="程序猿">程序猿</option>
                                 	<option value="教师">教师</option>
                                 	<option value="医生">医生</option>

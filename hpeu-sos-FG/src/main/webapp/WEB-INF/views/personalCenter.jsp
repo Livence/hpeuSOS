@@ -26,7 +26,7 @@
         <font><a href="toMain_redirection" id="genius">个人理财精灵</a></font>
         <p><span>
           &nbsp;&nbsp;<a href="toMain_redirection">首页</a>&nbsp;|
-          &nbsp;&nbsp;<a href="toProblem_redirection">常见问题</a>&nbsp;|
+          &nbsp;&nbsp;<a href="topersonalCenter_redirection">个人中心</a>&nbsp;|
           &nbsp;&nbsp;<a href="toNews_redirection">消息</a>&nbsp;|
           &nbsp;&nbsp;<a href="toCancel_redirection">退出</a>
         </span></p>
@@ -55,7 +55,7 @@
             <div class="content-center">
                 <div class="center-right">
                     <p id="p">
-                        <a href="toRechange_redirection">个人资料修改</a>
+                        <a href="topersonalData_redirection">个人资料修改</a>
                     </p>
                 </div>
                 <form name="refer" action="deleteCard_genius">

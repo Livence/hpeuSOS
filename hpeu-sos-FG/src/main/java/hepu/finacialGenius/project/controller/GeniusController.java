@@ -285,6 +285,19 @@ public class GeniusController {
 		return "tofindPassword";
 	}
 
+	//跳转到通过申请找回密码页面
+    public String  tofindPasswordByApplication(){
+    	
+    	return "tofindPasswordByApplication";
+    }
+    public String  topersonalCenter(){
+    	
+    	return "topersonalCenter";
+    }
+    
+    public String  topersonalData(){
+    	return "topersonalData";
+    }
 	// 账户注销
 	public String toCancel() {
 
@@ -304,7 +317,7 @@ public class GeniusController {
 	public String toAdminMain() {
 		return "toAdminMain";
 	}
-
+	
 	@Resource(name = "geniusService")
 	public void setService(GeniusService service) {
 		this.service = service;

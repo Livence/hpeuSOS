@@ -29,7 +29,7 @@
         <p>
             欢迎您，尊敬的<b>&nbsp;&nbsp;${user.userName}</b> <span> &nbsp;&nbsp;<a
                 href="toMain_redirection">首页</a>&nbsp;| &nbsp;&nbsp;<a
-                href="toProblem_redirection">常见问题</a>&nbsp;| &nbsp;&nbsp;<a
+                href="topersonalCenter_redirection">个人中心</a>&nbsp;| &nbsp;&nbsp;<a
                 href="toNews_redirection">消息</a>&nbsp;| &nbsp;&nbsp;<a
                 href="toCancel_redirection">退出</a>
             </span>

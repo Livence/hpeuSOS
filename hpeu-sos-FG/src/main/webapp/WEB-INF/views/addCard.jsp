@@ -26,7 +26,7 @@
 	    <font><a href="toMain_redirection" id="genius">个人理财精灵</a></font>
 	    <p><span> &nbsp;&nbsp;
 	    	 <a href="toMain_redirection">首页</a>&nbsp;| &nbsp;&nbsp;
-	    	 <a href="toProblem_redirection">常见问题</a>&nbsp;| &nbsp;&nbsp;
+	    	 <a href="topersonalCenter_redirection">个人中心</a>&nbsp;| &nbsp;&nbsp;
 	    	 <a href="toNews_redirection">消息</a>&nbsp;| &nbsp;&nbsp;
 	    	 <a href="toCancel_redirection">退出</a>
             </span>
@@ -51,10 +51,10 @@
 		     	    <option value="邮政储蓄">邮政储蓄</option>
 		        </select>
 		    </h3>
-		    <h3>银行卡号:<input type="text" name="userName" placeholder="请输入注册手机号">
+		    <h3>银行卡号:<input type="text" name="cardNum" placeholder="请输入注册手机号">
 		    <p>&nbsp;</p>
 		    </h3>
-		    <h3>此卡密码:<input type="password" name="repassword" 
+		    <h3>此卡密码:<input type="password" name="cardPwd" 
 		    placeholder="请再次输入密码">
 		    <p>&nbsp;</p>
 		    </h3>

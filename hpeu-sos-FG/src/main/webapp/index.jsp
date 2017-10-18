@@ -28,8 +28,7 @@
 		 <font>个人理财精灵</font>
         <p><span>   
           &nbsp;&nbsp;<a href="">关于我们</a>&nbsp;|
-          &nbsp;&nbsp;<a href="">管理员登陆</a>&nbsp;|
-          &nbsp;&nbsp;<a href="tofindPassword_redirection">密码找回</a>&nbsp;        
+          &nbsp;&nbsp;<a href="">管理员登陆</a>&nbsp;&nbsp;    
         </span></p>
 	</div>
 	<div id="main">
@@ -40,6 +39,9 @@
 			<h2>帐户登录</h2>
 			<hr>
 			<div class="login-form">
+				<div id="findpassword">
+					<a href="tofindPassword_redirection">忘记密码？</a> 
+				</div>
 				<form action="login_genius">
 					<h3>
 						<img src="images/username.png"> <input type="text"
@@ -53,7 +55,7 @@
 					</h3>
 					<h3>
 						<button id="signUp">登录</button>
-						<button type="Reset">找回</button>
+						<button type="Reset">重置</button>
 						<span><a href="toRegister_redirection">注册</a></span>
 					</h3>
 				</form>

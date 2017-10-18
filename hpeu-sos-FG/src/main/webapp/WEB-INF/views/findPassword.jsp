@@ -25,7 +25,8 @@
 	<div id="top-right">
 	    <font><a href="toMain_redirection" id="genius">个人理财精灵</a></font>
 	    <div class="forgetId">
-	    	<a href="">忘记身份证号</a>
+	        <a href="index.jsp">用户登陆界面</a>
+	    	<a href="tofindPasswordByApplication_redirection">忘记身份证号</a>
 	    </div>
 	</div>
 	<div id="main">

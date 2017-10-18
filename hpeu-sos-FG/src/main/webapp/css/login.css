@@ -25,7 +25,7 @@
             margin-left: 10px;
         }
         #top-right p{
-            width: 550px;
+            width: 500px;
             height: 30px;
             display: block;
             font-size: 18px;
@@ -102,6 +102,19 @@
             width: 475px;
             height: 400px;
         }
+        #main .login .login-form #findpassword{
+            width: 80px;
+            height: 30px;
+            position: absolute;
+            top: 280px;
+            left: 300px;
+        }
+        #main .login .login-form #findpassword a{
+            text-decoration: underline;
+            transition:0.5s;
+        }
+       
+        #main .login .login-form #findpassword a:hover { color:red; }
         #main .login .login-form h3{
             display: block;
             width: 380px ;

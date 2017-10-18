@@ -23,8 +23,12 @@
 		<img src="images/logo.png">
 	</div>
 	<div id="top-right">
+	    
 	    <font>个人理财精灵</font>
-	    <h4>填写越详细找回密码的成功率越高哦</h4>	
+	    <h4>填写越详细找回密码的成功率越高哦</h4>
+	     <div id="forgetId">
+	        <a href="index.jsp">用户登陆界面</a>
+	    </div>	
 	</div>
 	<div id="main">
 		<div class="loginFail">		

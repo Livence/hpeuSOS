@@ -35,8 +35,11 @@
 			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
 			<result name="toCancel">/WEB-INF/views/index.jsp</result>
 			<result name="tofindPassword">/WEB-INF/views/findPassword.jsp</result>
+			<result name="tofindPasswordByApplication">/WEB-INF/views/findPasswordByApplication.jsp</result>
+			<result name="topersonalData">/WEB-INF/views/personalData.jsp</result>		
 		    <allowed-methods>
-		    	tofindPassword,
+		        topersonalCenter,topersonalData,
+		    	tofindPassword,tofindPasswordByApplication,
 		        toAddCard,toRegister,toRechange,
 		        toWithdraw,toMain,toNews,toProblem,toCardManage
 		    </allowed-methods>
