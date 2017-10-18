@@ -5,6 +5,7 @@
 <struts>
 	<include file="struts_genius.xml"></include>
 	<include file="struts_redirection.xml"></include>
+	<include file="struts_personal.xml"></include>
 	<package name="default" extends="struts-default" namespace="/">
 		<action name="*_admin" class="hepu.finacialGenius.project.controller.GeniusController" method="{1}">
 			<result name="adminLoginSuccess">/WEB-INF/views/adminMain.jsp</result>
