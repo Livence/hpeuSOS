@@ -37,22 +37,28 @@ public class GeniusController {
 
 	private String cardName;// 接收jsp传过来的参数。
 
-	public  void nameJudge() throws IOException{
+	public void nameJudge() throws IOException {
 		HttpServletResponse response = ServletActionContext.getResponse();
-		response.setHeader("Content-type", "text/html;charset=UTF-8");  
-	    PrintWriter pw =  response.getWriter();
+		response.setHeader("Content-type", "text/html;charset=UTF-8");
+		PrintWriter pw = response.getWriter();
 		List<User> list = service.getAll(user);
 		for (User users : list) {
 			if (users.getUserName().equals(user.getUserName())) {
-		       msg = "*账户名已存在"; 
-		       pw.write(msg);
-		       return;
+				msg = "*账户名已存在";
+				pw.write(msg);
+				return;
 			}
 		}
 		msg = "*账户名可用";
-	    pw.write(msg);
+		pw.write(msg);
 	}
-	
+
+	// 用户个人资料修改
+	public String personalData() {
+		service.personalData(user);
+		return "personalData_success";
+	}
+
 	// 用户登录验证
 	public String login() {
 		List<User> list = service.getAll(user);
@@ -200,7 +206,7 @@ public class GeniusController {
 
 		return "toAddCard";
 	}
-	
+
 	// 如果用户没绑定银行卡，进行提示，绑定的话直接跳到银行卡管理界面
 	public String toCardManage() {
 		cards = service.queryCard(user);
@@ -279,35 +285,35 @@ public class GeniusController {
 
 		return "toNews";
 	}
-  
-	//跳转到找回密码
-	public String tofindPassword(){
+
+	// 跳转到找回密码
+	public String tofindPassword() {
 		return "tofindPassword";
 	}
 
-	//跳转到通过申请找回密码页面
-    public String  tofindPasswordByApplication(){
-    	
-    	return "tofindPasswordByApplication";
-    }
-    
-    //跳转到个人中心
-    public String  topersonalCenter(){
-    	
-    	return "topersonalCenter";
-    }
-    //跳转到个人资料修改
-    public String  topersonalData(){
-    	return "topersonalData";
-    }
-    
-    //跳转到资金记录查询
-    public String  fundRecord(){
-    	
-    	
-    	return "fundRecord";
-    }
-    
+	// 跳转到通过申请找回密码页面
+	public String tofindPasswordByApplication() {
+
+		return "tofindPasswordByApplication";
+	}
+
+	// 跳转到个人中心
+	public String topersonalCenter() {
+	    user = service.getCurrent(user).get(0);
+		return "topersonalCenter";
+	}
+
+	// 跳转到个人资料修改 
+	public String topersonalData() {
+		return "topersonalData";
+	}
+
+	// 跳转到资金记录查询
+	public String fundRecord() {
+
+		return "fundRecord";
+	}
+
 	// 账户注销
 	public String toCancel() {
 
@@ -323,11 +329,12 @@ public class GeniusController {
 	public String toAdminUserShow() {
 		return "toAdminUserShow";
 	}
-	//跳转的管理员主页
+
+	// 跳转的管理员主页
 	public String toAdminMain() {
 		return "toAdminMain";
 	}
-	
+
 	@Resource(name = "geniusService")
 	public void setService(GeniusService service) {
 		this.service = service;

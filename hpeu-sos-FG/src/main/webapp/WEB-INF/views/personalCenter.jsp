@@ -63,7 +63,7 @@
                         <c:forEach var="list" items="${cards}">
                             <tr>
                                 <td>
-                                    账户昵称：
+                                			
                                 </td>
                                 <td>
                                     
@@ -74,7 +74,7 @@
                                     账户昵称：
                                 </td>
                                 <td>
-                                   无花果的忧伤 
+           			${ user.nickname }
                                 </td>
                             </tr>
                             <tr>
@@ -82,7 +82,7 @@
                                     性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
                                 </td> 
                                 <td>
-                                    男
+                   ${ user.sex }
                                 </td>
                             </tr>
                             <tr>
@@ -90,7 +90,7 @@
                                     个性签名：
                                 </td>
                                 <td id="sign">
-                                    韶华白首，不过转瞬。唯天道永恒，往返不复。
+                   ${ user.sign }
                                 </td>
                             </tr>
                              <tr>    
@@ -98,7 +98,7 @@
                                     从事职业：
                                 </td>
                                 <td>
-                                    程序猿
+                   ${ user.profession }
                                 </td>
                             </tr>
                             <tr>    
@@ -106,7 +106,7 @@
                                     信誉积分：
                                 </td>
                                 <td>
-                                    333
+                   ${ user.creditScore }
                                 </td>
                             </tr>
                         </c:forEach>

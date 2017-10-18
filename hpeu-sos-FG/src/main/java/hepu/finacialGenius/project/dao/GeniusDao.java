@@ -133,5 +133,14 @@ public class GeniusDao {
 		return allUsers;
 		
 	}
+	
+	/**
+	 * 用户个人资料修改
+	 * @return
+	 */
+	public void personalData(User user) {
+		Session session = sessionFactory.getCurrentSession();
+		session.saveOrUpdate(user);		
+	}
 
 }

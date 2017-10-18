@@ -51,6 +51,8 @@ public class User {
 	
 	private String nickname;
 	
+	private String sign;
+	
 	@OneToMany(cascade=CascadeType.ALL,fetch = FetchType.EAGER,mappedBy="user")//mapperdBy指定主表是 User 。此处User 写小写 user.
 	private Set<Card> cards = new HashSet<Card>();
 	
@@ -231,12 +233,21 @@ public class User {
 		this.nickname = nickname;
 	}
 
+	public String getSign() {
+		return sign;
+	}
+
+	public void setSign(String sign) {
+		this.sign = sign;
+	}
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", state=" + state + ", systemMsg=" + systemMsg + ", userName=" + userName
 				+ ", password=" + password + ", IDNumber=" + IDNumber + ", creditScore=" + creditScore
 				+ ", userBalance=" + userBalance + ", payWord=" + payWord + ", address=" + address + ", profession="
-				+ profession + ", income=" + income + ", sex=" + sex + ", nickname=" + nickname + ", cards=" + cards
-				+ ", records=" + records + ", messages=" + messages + ", system=" + system + "]";
+				+ profession + ", income=" + income + ", sex=" + sex + ", nickname=" + nickname + ", sign=" + sign
+				+ ", cards=" + cards + ", records=" + records + ", messages=" + messages + ", system=" + system + "]";
 	}
+
 }

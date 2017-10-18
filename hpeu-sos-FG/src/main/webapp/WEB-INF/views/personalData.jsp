@@ -52,7 +52,7 @@
             </div>
             <div class="content-show">${msg}</div>
             <div class="content-center">
-                <form name="refer" action="#">
+                <form name="refer" action="personalData_personal">
                         <p id="p">
                             <button>修改</button>
                         </p>                   
@@ -79,7 +79,7 @@
                             </td>
                             <td>
                                 男<input type="radio" name="user.sex" class="radio" value="男">&nbsp;&nbsp;
-		    		            女<input type="radio" name="sex" class="radio" value="女">
+		    		            女<input type="radio" name="user.sex" class="radio" value="女">
                             </td>
                         </tr>
                         <tr>

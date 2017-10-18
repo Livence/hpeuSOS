@@ -25,7 +25,12 @@ public class GeniusService {
 
 		return dao.getAll(user);
 	}
-
+	
+	/**
+	 * 查询当前用户信息
+	 * @param user
+	 * @return
+	 */
 	public List<User> getCurrent(User user) {
 
 		return dao.getCurrent(user);
@@ -119,6 +124,13 @@ public class GeniusService {
 	public List<User>  getAllUser() {
 	List<User> allUsers=dao.getAllUser();
 	return allUsers;
+	}
+	
+	/**
+	 * 用户个人资料修改
+	 */
+	public void personalData(User user) {
+		dao.personalData(user);
 	}
 
 }
