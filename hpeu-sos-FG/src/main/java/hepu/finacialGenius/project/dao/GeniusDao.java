@@ -143,4 +143,16 @@ public class GeniusDao {
 		session.saveOrUpdate(user);		
 	}
 
+	/**
+	 * 查询资金记录
+	 */
+	public List<Records> fundRecord(User user) {
+		Session session = sessionFactory.getCurrentSession();
+		String hql = "from Records r where r.user = ? ";
+		Query query = session.createQuery(hql);
+		query.setInteger(0, user.getId());
+		List<Records> fundRecords=query.list();
+		return fundRecords;			
+	}
+
 }

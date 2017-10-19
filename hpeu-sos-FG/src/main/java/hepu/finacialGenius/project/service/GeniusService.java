@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import hepu.finacialGenius.project.dao.GeniusDao;
 import hepu.finacialGenius.project.model.Adminstor;
 import hepu.finacialGenius.project.model.Card;
+import hepu.finacialGenius.project.model.Records;
 import hepu.finacialGenius.project.model.User;
 
 @Service
@@ -131,6 +132,13 @@ public class GeniusService {
 	 */
 	public void personalData(User user) {
 		dao.personalData(user);
+	}
+
+	/**
+	 * 查询资金记录
+	 */
+	public List<Records> fundRecord(User user) {
+		return dao.fundRecord(user);		
 	}
 
 }

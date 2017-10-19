@@ -11,6 +11,7 @@ import org.apache.struts2.ServletActionContext;
 
 import hepu.finacialGenius.project.model.Adminstor;
 import hepu.finacialGenius.project.model.Card;
+import hepu.finacialGenius.project.model.Records;
 import hepu.finacialGenius.project.model.User;
 import hepu.finacialGenius.project.service.GeniusService;
 
@@ -310,7 +311,9 @@ public class GeniusController {
 
 	// 跳转到资金记录查询
 	public String fundRecord() {
-
+		List<Records> fundRecords = service.fundRecord(user);
+		HttpServletRequest request = ServletActionContext.getRequest();
+		request.setAttribute("fundRecords", fundRecords);
 		return "fundRecord";
 	}
 
