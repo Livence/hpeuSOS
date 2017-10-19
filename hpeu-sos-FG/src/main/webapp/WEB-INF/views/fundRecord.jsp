@@ -27,13 +27,13 @@
 		<img src="images/logo.png">
 	</div>
 	<div id="top-right">
-		<font><a href="toMain_redirection" id="genius">个人理财精灵</a></font>
+		<font><a href="toMain_redirection.do" id="genius">个人理财精灵</a></font>
 		<p>
 			欢迎您，尊敬的<b>&nbsp;&nbsp;${user.userName}</b> <span> &nbsp;&nbsp;<a
-				href="toMain_redirection">首页</a>&nbsp;| &nbsp;&nbsp;<a
-				href="topersonalCenter_redirection">个人中心</a>&nbsp;| &nbsp;&nbsp;<a
-				href="toNews_redirection">消息</a>&nbsp;| &nbsp;&nbsp;<a
-				href="toCancel_redirection">退出</a>
+				href="toMain_redirection.do">首页</a>&nbsp;| &nbsp;&nbsp;<a
+				href="topersonalCenter_redirection.do">个人中心</a>&nbsp;| &nbsp;&nbsp;<a
+				href="toNews_redirection.do">消息</a>&nbsp;| &nbsp;&nbsp;<a
+				href="toCancel_redirection.do">退出</a>
 			</span>
 		</p>
 	</div>
@@ -59,7 +59,7 @@
 					<li><a href=" ">资金总计 </a></li>
 					<li><a href=" ">资金记录 </a></li>
 					<li><a href=" ">资金统计 </a></li>
-					<li><a href="toCardManage_redirection">银行卡管理 </a></li>
+					<li><a href="toCardManage_redirection.do">银行卡管理 </a></li>
 					<li><a href=" ">安全中心 </a></li>
 					<li><a href=" ">马上借呗 </a></li>
 				</ul>
@@ -83,10 +83,7 @@
 								<td>${fundRecord.tradeAccount}</td>
 							</tr>
 						</c:forEach>
-						<tr>
-							<td>2017/07/28</td>
-							<td>9999999</td>
-						</tr>
+
 
 					</table>
 					<div class="page">
