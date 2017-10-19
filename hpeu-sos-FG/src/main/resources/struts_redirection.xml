@@ -14,13 +14,13 @@
 			<result name="toProblem">/WEB-INF/views/problem.jsp</result>
 			<result name="toNews">/WEB-INF/views/news.jsp</result>
 			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
-			<result name="toCancel">/WEB-INF/views/index.jsp</result>
 			<result name="tofindPassword">/WEB-INF/views/findPassword.jsp</result>
 			<result name="tofindPasswordByApplication">/WEB-INF/views/findPasswordByApplication.jsp</result>
 			<result name="topersonalCenter">/WEB-INF/views/personalCenter.jsp</result>		
 			<result name="topersonalData">/WEB-INF/views/personalData.jsp</result>		
+			<result name="toCancel">index.jsp</result>
 		    <allowed-methods>
-		        topersonalCenter,topersonalData,
+		        topersonalCenter,topersonalData,toCancel,
 		    	tofindPassword,tofindPasswordByApplication,
 		        toAddCard,toRegister,toRechange,
 		        toWithdraw,toMain,toNews,toProblem,toCardManage

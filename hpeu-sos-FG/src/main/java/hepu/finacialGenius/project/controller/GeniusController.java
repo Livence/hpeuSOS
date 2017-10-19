@@ -316,7 +316,10 @@ public class GeniusController {
 
 	// 账户注销
 	public String toCancel() {
-
+		HttpServletRequest request=ServletActionContext.getRequest();
+		//销毁session
+		request.getSession().invalidate();
+//		request.getSession().removeAttribute("user");  //仅销毁对象
 		return "toCancel";
 	}
 
