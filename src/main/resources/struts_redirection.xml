@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="default_redirection" extends="struts-default" namespace="/">
+		<action name="*_redirection" class="hepu.finacialGenius.project.controller.GeniusController"  method="{1}">
+			<result name="toAddCard">/WEB-INF/views/addCard.jsp</result>
+			<result name="toRechange">/WEB-INF/views/rechange.jsp</result>
+			<result name="toWithdraw">/WEB-INF/views/withdraw.jsp</result>
+			<result name="noCard">/WEB-INF/views/main.jsp</result>
+			<result name="toMain">/WEB-INF/views/main.jsp</result>
+			<result name="toProblem">/WEB-INF/views/problem.jsp</result>
+			<result name="toNews">/WEB-INF/views/news.jsp</result>
+			<result name="toCardManage">/WEB-INF/views/cardManage.jsp</result>
+			<result name="topersonalCenter">/WEB-INF/views/personalCenter.jsp</result>		
+			<result name="topersonalData">/WEB-INF/views/personalData.jsp</result>		
+			<result name="toCancel">index.jsp</result>
+		    <allowed-methods>
+		        topersonalCenter,topersonalData,toCancel,
+		        toAddCard,toRegister,toRechange,
+		        toWithdraw,toMain,toNews,toProblem,toCardManage
+		    </allowed-methods>
+		</action>
+	</package>
+</struts>

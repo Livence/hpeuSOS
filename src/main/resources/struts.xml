@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.action.extension" value="do,action" />
+    <include file="struts_genius.xml"></include>
+    <include file="struts_personal.xml"></include>
+    <include file="struts_redirection.xml"></include>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="*_admin"  class="hepu.finacialGenius.project.controller.GeniusController" method="{1}">
+			<result name="adminLoginSuccess">/WEB-INF/views/adminMain.jsp</result>
+			<result name="adminstorLoginFail">/WEB-INF/views/adminLogin.jsp</result>
+			<allowed-methods>adminLogin,</allowed-methods>
+		</action>
+		<action name="*_adminredirection" class="hepu.finacialGenius.project.controller.GeniusController" method="{1}">
+			<result name="toAdminLogin">/WEB-INF/views/adminLogin.jsp</result>
+			<result name="toAdminUserShow">/WEB-INF/views/adminUserShow.jsp</result>
+			<result name="toAdminMain">/WEB-INF/views/adminMain.jsp</result>
+			<allowed-methods>toAdminLogin,toAdminUserShow</allowed-methods>
+		</action>
+		<action name="*_skip" class="hepu.finacialGenius.project.controller.GeniusController"  method="{1}">
+			<result name="loginSuccess">/WEB-INF/views/main.jsp</result>
+			<result name="loginFail">index.jsp</result>
+			<result name="toRegister">/WEB-INF/views/register.jsp</result>
+			<result name="registerFail">/WEB-INF/views/register.jsp</result>
+			<result name="registerSuccess">/WEB-INF/views/registerSuccess.jsp</result>
+			<result name="tofindPassword">/WEB-INF/views/findPassword.jsp</result>
+			<result name="tofindPasswordByApplication">/WEB-INF/views/findPasswordByApplication.jsp</result>
+
+		    <allowed-methods>login,register,nameJudge,toRegister,
+		                     tofindPassword
+		    </allowed-methods>
+		</action>
+	</package>
+</struts>
